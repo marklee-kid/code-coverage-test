@@ -29,14 +29,18 @@ def foo():
 def bar():
     return "foo"
 
+
 def func1():
     return "sdgsdfg"
+
 
 def func2():
     return "ccsdgsdfg"
 
+
 def func3():
     return "bbsdgsdfg"
+
 
 def func4():
     return "aasdgsdfg"
