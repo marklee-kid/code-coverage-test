@@ -19,7 +19,7 @@ jobs:
           pwd
           pip install coverage
           ls -lah
-          PYTHONPATH=. coverage run -m unittest unittests.py
+          PYTHONPATH=. coverage run -m unittest test/unittests.py
       
       - name: Upload code coverage for ref branch
         uses: actions/upload-artifact@v3
