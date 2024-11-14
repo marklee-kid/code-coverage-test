@@ -23,14 +23,15 @@ def get_root():
 
 
 def foo():
-    return "bar"
+    mytime = time.time()
+    return "bar" if get_time() > mytime else "uhuh"
 
 
 def bar():
     return "foo"
 
 
-def func1():
+def funk1():
     return "sdgsdfg"
 
 
