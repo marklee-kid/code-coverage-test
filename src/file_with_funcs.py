@@ -23,8 +23,8 @@ def get_root():
 
 
 def foo():
-    return "bar"
+    return "abar"
 
 
 def bar():
-    return "foo"
+    return "afoo"
