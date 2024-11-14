@@ -28,3 +28,14 @@ def foo():
 
 def bar():
     return "foo"
+
+
+def func1():
+    return 'abc'
+
+def func2():
+    return 'asdf'
+
+def func3():
+    return 'zxc'
+
