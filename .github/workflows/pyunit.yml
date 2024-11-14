@@ -67,6 +67,7 @@ jobs:
       with:
         name: feat-lcov.info
     - name: Generate Code Coverage report
+      id: code-coverage
       uses: barecheck/code-coverage-action@v1
       with:
         barecheck-github-app-token: ${{ secrets.BARECHECK_GITHUB_APP_TOKEN }}
@@ -74,3 +75,5 @@ jobs:
         base-lcov-file: "ref-lcov.info"
         send-summary-comment: true
         show-annotations: "warning"
+        minimum-ratio: 0 # Fails Github action once code coverage is decreasing
+
