@@ -12,4 +12,19 @@ def get_time():
 
 def get_separator():
     return os.sep
-    
+
+
+def get_tz():
+    return time.timezone
+
+
+def get_root():
+    return "/"
+
+
+def foo():
+    return "bar"
+
+
+def bar():
+    return "foo"
