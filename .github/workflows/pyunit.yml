@@ -33,8 +33,6 @@ jobs:
     needs: base_branch_cov
     steps:
       - uses: actions/checkout@v3
-        with:
-          ref: ${{ github.base_ref }}
 
       - name: Setup Python
         uses: actions/setup-python@master
