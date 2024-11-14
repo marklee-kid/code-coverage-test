@@ -18,3 +18,7 @@ def get_tz():
 
 def get_root():
     return "/"
+
+
+def foo():
+    return "bar"
