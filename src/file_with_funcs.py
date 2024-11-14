@@ -23,19 +23,29 @@ def get_root():
 
 
 def foo():
-    return "bar"
+    mytime = time.time()
+    if get_time() > mytime:
+        return "bar"
+    return "uhuh"
 
 
 def bar():
     return "foo"
 
 
-def func1():
-    return 'abc'
+def funk1():
+    return "sdgsdfg"
+
 
 def func2():
-    return 'asdf'
+    return "ccsdgsdfg"
 
-def func3():
-    return 'zxc'
 
+def func3(maybe = True):
+    if maybe:
+        return "bbsdgsdfg"
+    return "sdfd"
+
+
+def func4():
+    return "aasdgsdfg"
