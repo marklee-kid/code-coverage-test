@@ -24,7 +24,9 @@ def get_root():
 
 def foo():
     mytime = time.time()
-    return "bar" if get_time() > mytime else "uhuh"
+    if get_time() > mytime:
+        return "bar"
+    return "uhuh"
 
 
 def bar():
