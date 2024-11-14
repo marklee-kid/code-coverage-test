@@ -38,8 +38,10 @@ def func2():
     return "ccsdgsdfg"
 
 
-def func3():
-    return "bbsdgsdfg"
+def func3(maybe = True):
+    if maybe:
+        return "bbsdgsdfg"
+    return "sdfd"
 
 
 def func4():

@@ -2,6 +2,7 @@ from src import file_with_funcs
 from unittest import TestCase
 from time import time
 
+
 class SampleUnit(TestCase):
 
     def test_method1(self):
@@ -11,7 +12,4 @@ class SampleUnit(TestCase):
         assert getted >= pre
 
     def test_method2(self):
-        assert file_with_funcs.foo() == 'bar'
-
-    # def test_method3(self):
-        assert file_with_funcs.bar() == 'foo'
+        assert file_with_funcs.func3() == "bbsdgsdfg"
