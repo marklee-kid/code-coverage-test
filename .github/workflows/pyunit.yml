@@ -16,7 +16,9 @@ jobs:
           python-version: 3.12
       - name: Generate Report
         run: |
+          pwd
           pip install coverage
+          ls -lah
           PYTHONPATH=. coverage run -m unittest unittests.py
       
       - name: Upload code coverage for ref branch
