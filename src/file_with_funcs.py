@@ -15,3 +15,6 @@ def get_separator():
 
 def get_tz():
     return time.timezone
+
+def get_root():
+    return "/"
