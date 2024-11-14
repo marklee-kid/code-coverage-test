@@ -30,7 +30,6 @@ jobs:
 
   feat_branch_cov:
     runs-on: ubuntu-latest
-    needs: base_branch_cov
     steps:
       - uses: actions/checkout@v3
 
@@ -73,5 +72,5 @@ jobs:
         base-lcov-file: "ref-lcov.info"
         send-summary-comment: true
         show-annotations: "warning"
-        minimum-ratio: 0 # Fails Github action once code coverage is decreasing
+        minimum-ratio: 20  # 90% code coverage required
 
